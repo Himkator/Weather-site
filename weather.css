@@ -1,0 +1,202 @@
+.weather {
+    background-image: url("https://1.bp.blogspot.com/-bzjPJlutzqM/XaVgBQJwJ7I/AAAAAAAAdmo/fmNbahg9t_EDUdrNjtnkxDMFl4pkeIztQCLcBGAsYHQ/w0/red-rock-clouds-sunset-4k-3z-2560x1440.jpg");
+    max-width: 99%;
+    height: 350px;
+    margin-left: 0.1%;
+    padding-right: 1%;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 5% ;
+    background-size: 100%;
+    margin-top: 20px;  
+    box-shadow: 4px 4px 4px 4px rgba(108, 3, 73, 0.3);    
+    display: flex;
+    justify-content: space-around;
+ }
+ nav {
+     width: 98.5%;
+     background-color: white;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     border-radius: 10px;
+     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+     padding: 10px;
+ 
+ }
+ nav > a:hover{
+     transition: 0.25s;
+     background: rgb(141, 38, 137);
+     color:white;
+     padding: 8px 16px;
+     border-radius:10px ;
+ }
+ nav > a{
+     color: black;
+     text-decoration: none;
+ }
+ .input{
+     height: 22px;
+     border-radius: 15px;
+     box-shadow: 2px 2px 6px rgb(141, 38, 137);      
+     border-color: rgb(169, 56, 179);
+     outline: none;
+     visibility: inherit;
+ }
+ form {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .day {
+     background-color:rgba(227, 57, 230, 0.5);
+     width: 200px;
+     height: 250px;
+     border-radius: 15px;
+     box-shadow: 2px 2px 6px rgb(141, 38, 137); 
+     color: #fff; 
+     font-size: 150%; 
+     padding-left: 15px;  
+ }
+ .data {
+     display: flex;  
+     justify-content: space-between;  
+ }
+ .data > p {
+     color: white;
+ }
+ button {
+     width: 70px;
+     height: 25px;
+     border-radius: 15px;
+     border: none;
+     box-shadow: 2px 2px 6px rgb(141, 38, 137);      
+     border-color: rgb(169, 56, 179);
+     cursor: pointer;
+     transition: 0.50s;
+ }
+ button:hover {
+     background: rgb(141, 38, 137);
+     color:white;
+ }
+ .q {
+     border-radius: 10px;
+     display: block;
+     align-items: center;
+     width: 300px;
+     height: 150px;
+     padding-left:6px;
+     background-color: #eeeded;
+     box-shadow: 2px 2px 6px  rgba(0, 0, 0, 0.3);      
+     background-color:  rgba(255, 255, 255, 0.623);
+     /* opacity: 50%;
+     background: transparent;
+     backdrop-filter: blur(10px); */
+ }
+ .city {
+     font-size: 200%;
+     color: #fff;
+ }
+ .img {
+     margin-left: 70px;
+ }
+ .C {
+     margin-right: 50px;
+ }
+ .form1 {
+     display: flex;
+     justify-content: space-around;
+     margin-top: 80px;
+ }
+.black, #wet{
+     display: block; 
+     padding-left: 70px;
+     font-size: 140%;
+     padding-top: 25px;
+ }
+.time {
+    display: flex;
+    font-size: 120%;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.class {
+    animation: good 0.5s infinite alternate; 
+}
+
+@keyframes good {
+    0% {
+        opacity: 30%;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.clock {
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-bottom: 5p0x;
+    margin-top: 20px;
+    box-shadow: 4px 4px 4px 4px rgb(141, 38, 137);
+    
+}
+#day {
+    display: flex;
+    font-size: 120%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    color: #fff;
+}
+.box {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 5p0x;
+    margin-top: 20px;
+    box-shadow: 10px 4px 4px 10px rgb(141, 38, 137);
+}
+/* .Search {
+   width: 100px;
+   height: 100px;
+   background-color: antiquewhite;
+   border: rgb(243, 235, 225);
+   border-radius: 14px;
+   margin-left: 75%;
+   visibility: hidden;
+   transition: 400ams;
+   display: grid;
+   grid-template-columns: 48px auto;
+   transition: 300ms;
+   display: grid;
+   grid-template-columns: var(--bottom, 48px) auto;
+  }
+  
+.Search:has(.left:hover) {
+    --bottom: 18%;
+  } */
+.list {
+    display: block;
+    background-color: #ffffff;
+    border: 0 0 5px 5px;
+    border-radius: 14px;
+    position: absolute;
+    height: 100px;
+    width: 13.5%;
+    visibility: hidden;
+}
+ul {
+    list-style: none;
+}
+.list-items {
+    padding: 12px 5px;
+}
+.list-items:hover {
+    background-color: #dddddd;
+    border-radius: 14px; 
+}
